@@ -1,6 +1,4 @@
-package by.Gorbatsevich.L_13_02_2025Vladelec;
-
-import by.Gorbatsevich.L_30_01_2025.Wheel;
+package by.Gorbatsevich.L_20_02_2025;
 
 import java.util.Random;
 
@@ -58,6 +56,11 @@ public class Owner {
             pets = pets1;
 
         }
+        pet.setOwner(this);
+    }
 
+    @Override
+    public String toString() {
+        return name + " " + surName;
     }
 }

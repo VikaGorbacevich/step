@@ -1,4 +1,4 @@
-package by.Gorbatsevich.L_13_02_2025Vladelec;
+package by.Gorbatsevich.L_20_02_2025;
 
 
 public class Cat extends Pet {

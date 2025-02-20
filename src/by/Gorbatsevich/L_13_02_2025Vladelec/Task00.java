@@ -7,6 +7,12 @@ public class Task00 {
         Pet bird = new Bird("Кеша", "попугай", 1, new Owner());
         WildAnimal lion = new Lion("Симба", "лев", 7, "Саванна");
 
+        Owner owner1 = new Owner();
+        Owner owner2 = new Owner();
+
+        owner1.add(cat);
+        owner2.add(bird);
+
         Pet[] pets = {dog, cat, bird};
         for (Pet pet : pets) {
             System.out.println(pet);
