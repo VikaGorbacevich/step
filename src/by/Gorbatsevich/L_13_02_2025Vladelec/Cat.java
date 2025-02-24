@@ -4,7 +4,7 @@ package by.Gorbatsevich.L_13_02_2025Vladelec;
 public class Cat extends Pet {
     public Cat(String name, String species, int age, Owner owner) {
 
-        super(name, species, age, owner);
+        super(name, species, age, owner.toString());
     }
 
     @Override

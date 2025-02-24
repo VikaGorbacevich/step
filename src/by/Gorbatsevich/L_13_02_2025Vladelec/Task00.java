@@ -4,7 +4,7 @@ public class Task00 {
     public static void main(String[] args) {
         Pet cat = new Cat("Мурка", "кошка", 2, new Owner());
         Pet dog = new Dog("Барсик", "собака", 3, new Owner());
-        Pet bird = new Bird("Кеша", "попугай", 1, new Owner());
+        Pet bird = new Bird("Кеша", "попугай", 1, new Owner().toString());
         WildAnimal lion = new Lion("Симба", "лев", 7, "Саванна");
 
         Pet[] pets = {dog, cat, bird};
@@ -36,6 +36,18 @@ public class Task00 {
         }
 
         System.out.println("Общее количество животных " + Animal.getTotalAnimals());
+    Swimable[] swimables = new Swimable[1];
+    swimables[0] = new Bird("Карыч", "утка", 5, "Аня");
+    for (Swimable swimable : swimables) {
+        swimable.swim();
+        if (swimable instanceof Bird bird1) {
+            bird.move();
+        }
     }
+    Flyable[] flyables = new Flyable[1];
+    flyables[0] = new Bird("Чайка", "чайка", 1, "никто");
+    }
+
+
 }
 

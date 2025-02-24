@@ -34,19 +34,19 @@ public class Owner {
         this.name = names[random.nextInt(names.length)];
     }
 
-    public void add(Pet pet) {
-        if (size < pets.length) {
-            pets[size++] = wheel;
-        } else {
-            Pet[] pets1 = new Wheel[pets.length + 1];
-
-            for (int i = 0; i < pets.length; i++) {
-                pets1[i] = pets[i];
-            }
-            pets1[size++] = wheel;
-            pets = pets1;
-
-        }
-
-    }
+//    public void add(Pet pet) {
+//        if (size < pets.length) {
+//            pets[size++] = wheel;
+//        } else {
+//            Pet[] pets1 = new Wheel[pets.length + 1];
+//
+//            for (int i = 0; i < pets.length; i++) {
+//                pets1[i] = pets[i];
+//            }
+//            pets1[size++] = wheel;
+//            pets = pets1;
+//
+//        }
+//
+//    }
 }
